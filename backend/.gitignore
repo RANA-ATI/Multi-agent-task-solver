@@ -4,6 +4,9 @@ QUICK_START.md
 TEST_RESULTS.md
 run_output.log
 
+# Claude Code
+.claude/
+
 # Environment variables
 .env
 
