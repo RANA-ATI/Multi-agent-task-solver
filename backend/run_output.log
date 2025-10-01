@@ -1,0 +1,32 @@
+E:\My Projects\Hegtavic Projects\Wand_ai\Multi-agent-task-solver\backend\src\tools\visualization.py:95: FutureWarning: errors='ignore' is deprecated and will raise in a future version. Use to_datetime without passing `errors` and catch exceptions explicitly instead
+  df[x_col] = pd.to_datetime(df[x_col], errors='ignore')
+
+============================================================
+EXAMPLE 1: Research-only mode
+============================================================
+
+--- Research-only final ---
+Based on the search results, here are two recent key statistics:
+
+"Pakistan has around 70,000 electric motorcycles, 5,200 electric cars and 450 electric buses" - Government report via news sources
+
+"In 2023 the vehicle market totalled 81,587 total sales, down 63.7%" - Flash report, December 2023
+
+Synthesis: Pakistan's EV adoption shows a mixed picture, with electric motorcycles leading the transition at 70,000 units. While the overall vehicle market experienced a significant decline in 2023, the presence of over 5,200 electric cars and 450 electric buses indicates growing EV penetration, though still at an early stage compared to global markets.
+
+============================================================
+EXAMPLE 2: Summary mode
+============================================================
+
+--- Summary-only final ---
+
+
+Please provide the year range and/or EV type you're interested in, and I'll search for and summarize those specific statistics.
+
+============================================================
+EXAMPLE 3: Visualize mode
+============================================================
+
+--- Visualize final ---
+Automatically plotted table as a line chart. File saved at: /mnt/data\plot_20251001011908_7598c2.png
+Plot produced at: /mnt/data\plot_20251001011908_7598c2.png
